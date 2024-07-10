@@ -28,7 +28,7 @@ jobs:
       # Cache node_modules
       - uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 21.7.2
           cache: 'npm'
        
       - run: npm ci
